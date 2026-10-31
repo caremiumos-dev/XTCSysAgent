@@ -7,6 +7,8 @@
 
 本工程从**空目录**开始，参照反编译源码与 smali 资源，逐类重新实现，目标是**可编译、可签名、可替换原厂 APK**。
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+
 ---
 
 ## 当前状态
@@ -216,6 +218,55 @@ minSdk        19      targetSdk 25      compileSdk 34
 | [docs/NAMING-httplib.md](docs/NAMING-httplib.md) | `com.xtc.httplib` 映射 |
 | [docs/NAMING-im.md](docs/NAMING-im.md) | `com.xtc.im` 映射 |
 | [docs/REWRITE_SPEC.md](docs/REWRITE_SPEC.md) | 重写规范（命名、注释、禁止事项） |
+
+---
+
+---
+
+## 许可证
+
+本项目以 **Apache License 2.0** 发布，完整全文见 [LICENSE](LICENSE)。
+
+`LICENSE` 保持 **apache.org 官方文本、一字未改**（附录里仍是 Apache 的分发格式占位符）：
+
+```
+文件大小  11358 字节 / 202 行
+SHA-256   cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+```
+
+标准的版权声明长这样，把占位符换成你自己的名字或组织名即可：
+
+```
+Copyright 2026 <版权所有者>
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+> 发布二进制时记得把 `LICENSE` 一起带上；如果要在每个源文件头加版权注释，可以自己批量加（本工程默认没加，保持文件干净）。
+
+### 第三方依赖
+
+以下依赖**各自遵循其原始许可证**（以各库仓库 / POM 的声明为准），不因本项目采用 Apache 2.0 而改变。
+分发本工程的 APK 时，请一并遵守它们的许可要求：
+
+| 依赖 | 用途 |
+| --- | --- |
+| Android Support Library（appcompat-v7 / support-v4 等） | 兼容性支持 |
+| OkHttp / Okio / Retrofit / Gson | 网络与序列化 |
+| RxJava 1.x / RxAndroid | 响应式调度 |
+| ORMLite | 本地数据库 |
+| Mosby (MVP) | MVP 基类 |
+| 七牛 Android SDK | 日志上传 |
 
 ---
 
