@@ -1,28 +1,60 @@
-# ---- Gradle ----
+# ---------------------------------------------------------------------------
+# XTCSysAgent —— 忽略规则
+# 原则：凡是「本机相关」「可重新生成」「含密钥」的一律不入库。
+# ---------------------------------------------------------------------------
+
+# ---- Gradle / 构建产物 ----
 .gradle/
 build/
 app/build/
+out/
+captures/
+.externalNativeBuild/
+.cxx/
 
-# ---- 本机配置（含绝对路径，不入库）----
+# ---- 本机配置（含绝对路径，换台机器就失效）----
 local.properties
 
-# ---- IDE ----
+# ---- IDE / 编辑器 ----
 .idea/
 *.iml
+*.ipr
+*.iws
 .vs/
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*~
 
-# ---- 构建/签名产物 ----
+# ---- 构建产物 ----
 *.apk
 *.aab
 *.idsig
+*.dex
+*.class
+*.hprof
+*.aar
+
+# ---- 签名材料（绝对不能提交）----
 *.jks
 *.keystore
+*.bks
 *.pk8
 *.pem
+*.p12
+*.pfx
 
-# ---- 临时文件 ----
-*.log
-*.tmp
-_cmp/
+# ---- 临时文件 / 脚本产物 ----
 bc.txt
 build_*.txt
+_cmp/
+*.tmp
+*.bak
+*.orig
+*.rej
+*.log
+
+# ---- 例外：wrapper 的 jar 必须入库，否则 clone 下来跑不起来 ----
+!gradle/wrapper/gradle-wrapper.jar
