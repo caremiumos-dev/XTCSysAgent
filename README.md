@@ -227,17 +227,19 @@ minSdk        19      targetSdk 25      compileSdk 34
 
 本项目以 **Apache License 2.0** 发布，完整全文见 [LICENSE](LICENSE)。
 
-`LICENSE` 保持 **apache.org 官方文本、一字未改**（附录里仍是 Apache 的分发格式占位符）：
+正文是 **apache.org 官方 `LICENSE-2.0.txt` 原文**，只按官方附录的要求，把版权占位符
+`Copyright [yyyy] [name of copyright owner]` 填成了实际署名：
 
 ```
-文件大小  11358 字节 / 202 行
-SHA-256   cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+文件大小  11352 字节 / 202 行
+SHA-256   bfa20f88344393c0b9d3c90223f2ae5266cf97baeb7bc39dee23f2445b01bdd4
+（作为对照：官方未填署名的原文是 11358 字节）
 ```
 
-标准的版权声明长这样，把占位符换成你自己的名字或组织名即可：
+版权声明（即 `LICENSE` 附录里那一段）：
 
 ```
-Copyright 2026 <版权所有者>
+Copyright 2026 CaremiumOS Developers
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
