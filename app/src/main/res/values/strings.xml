@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CallFailureCollect">电话异常</string>
+    <string name="ModemCollect">ModemLog</string>
+    <string name="alarm_time_week1">一</string>
+    <string name="alarm_time_week2">二</string>
+    <string name="alarm_time_week3">三</string>
+    <string name="alarm_time_week4">四</string>
+    <string name="alarm_time_week5">五</string>
+    <string name="alarm_time_week6">六</string>
+    <string name="alarm_time_week7">日</string>
+    <string name="app_name">systemAgent</string>
+    <string name="btn_cancel">@android:string/cancel</string>
+    <string name="btn_confirm_upload">Upload</string>
+    <string name="collect_error_info_network_not_match">网络条件不匹配</string>
+    <string name="come_to_time_disable">已到禁用时间啦</string>
+    <string name="emmc_for_splog_off">emmc寿命达到,系统日志开关被关闭</string>
+    <string name="i_know">我知道了</string>
+    <string name="log_off">日志系统被关闭</string>
+    <string name="no_log_file">未上传，无日志信息</string>
+    <string name="notification_adsp_dump_content">adsp 发生了异常</string>
+    <string name="notification_adsp_dump_title">adsp dump</string>
+    <string name="notification_content_class">上课禁用设置同步成功</string>
+    <string name="notification_content_class_mode_call_switch">上课禁用拨打管理员电话开关同步成功</string>
+    <string name="notification_content_forcecall">自动接通设置同步成功</string>
+    <string name="notification_content_holiday">假期守护设置同步成功</string>
+    <string name="notification_content_interactioncall">体感接听设置同步成功</string>
+    <string name="notification_content_locationalert">通话位置反馈设置同步成功</string>
+    <string name="notification_content_onofftime">定时开关机设置同步成功</string>
+    <string name="notification_content_parent_location">家长定位开关同步成功</string>
+    <string name="notification_content_refusestranger">拒绝陌生人来电设置同步成功</string>
+    <string name="notification_content_school">上学守护设置同步成功</string>
+    <string name="notification_content_setting">手表设置同步成功</string>
+    <string name="notification_modem_dump_content">modem 发生了异常</string>
+    <string name="notification_modem_dump_title">modem dump</string>
+    <string name="notification_ticker">小天才</string>
+    <string name="notification_title">设置变更</string>
+    <string name="qiniu_upload_error_remark">日志未上传，错误码：</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tip_input_secret_code">Please input correct secret code</string>
+    <string name="tip_upload_background">Has Upload background, pls wait.</string>
+    <string name="tip_upload_txt">"The program will capture logs for 20 minutes and upload it.
+ Please input the secret code if you want to do it."</string>
+    <string name="today_enable_time_period">%s今天可用时间段为：</string>
+    <string name="upload_remark">日志未上传，文件大小（%dKB）超过限制</string>
+</resources>

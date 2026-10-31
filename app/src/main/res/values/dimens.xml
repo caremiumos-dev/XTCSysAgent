@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="disabled_alpha_material_dark">0.3</dimen>
+    <dimen name="disabled_alpha_material_light">0.26</dimen>
+    <dimen name="highlight_alpha_material_colored">0.26</dimen>
+    <dimen name="highlight_alpha_material_dark">0.2</dimen>
+    <dimen name="highlight_alpha_material_light">0.12</dimen>
+    <dimen name="hint_alpha_material_dark">0.5</dimen>
+    <dimen name="hint_alpha_material_light">0.38</dimen>
+    <dimen name="hint_pressed_alpha_material_dark">0.7</dimen>
+    <dimen name="hint_pressed_alpha_material_light">0.54</dimen>
+</resources>

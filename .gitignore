@@ -1,0 +1,28 @@
+# ---- Gradle ----
+.gradle/
+build/
+app/build/
+
+# ---- 本机配置（含绝对路径，不入库）----
+local.properties
+
+# ---- IDE ----
+.idea/
+*.iml
+.vs/
+
+# ---- 构建/签名产物 ----
+*.apk
+*.aab
+*.idsig
+*.jks
+*.keystore
+*.pk8
+*.pem
+
+# ---- 临时文件 ----
+*.log
+*.tmp
+_cmp/
+bc.txt
+build_*.txt
